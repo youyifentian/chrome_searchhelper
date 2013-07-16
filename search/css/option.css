@@ -1,0 +1,19 @@
+*{margin:0;padding:0;outline:medium none;}
+body{font:12px Arial,宋体,sans-serif;background:#E8EDF2}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul{list-style:none;}
+img{border:0;}
+.main{width:900px;margin:0 auto;}
+.header{padding:10px;height:50px;width:450px;background:#fff;margin:20px 0;border-radius:8px;}
+.header .optitle{position:relative;font-size:20px;line-height:50px;top:-18px;left:15px;}
+.content{height:450px;background:#fff;width:900px;border-radius:8px;}
+.content .tip_0{height:20px;line-height:20px;font-size:18px;position:relative;top:50px;left:50px;}
+.content .searchlist{width:150px;margin-left:70px;margin-top:60px;font-size:14px;}
+.content .searchlist input{cursor:pointer;top:2px;position:relative;margin:5px 4px 4px 6px;}
+.content .searchlist label{cursor:pointer;}
+.content .tip{margin-left:-15px;margin-top:20px;width:220px;background:#E8EDF2;height:25px;line-height:25px;text-align:center;}
+.content .info{float:left;position:relative;left:55px;top:315px;height:20px;line-height:20px;}
+.content .showimg{position:relative;float:right;top:20px;right:50px;box-shadow:0 0 3px #DBE4F6;}
+.content .aboutus{position:relative;float:right;clear:right;top:120px;right:25px;text-align:right;}
+.content .aboutus div{padding:3px;}
+.content .aboutus div a{color:#3366CC;}

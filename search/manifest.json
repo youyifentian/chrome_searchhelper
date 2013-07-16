@@ -1,0 +1,36 @@
+{
+  "name" : "快捷搜索引擎",
+  "version" : "1.0.0.2",
+  "manifest_version" : 2,
+  "description" : "搜索引擎快速切换,一键替换百度搜索主页变谷歌",
+  "background" : {
+    "scripts" : ["js/base.js","js/background.js"]
+  },
+  "homepage_url" : "http://git.oschina.net/youyifentian/mychrome.git",
+  "update_url": "http://duoluohua.com/myapp/chrome/search/download/",
+  "page_action" : {
+    "default_icon" : "images/icon_19.png",
+    "default_title" : "切换搜索引擎",
+    "default_popup" : "html/popup.html"
+  },
+  "permissions" : [
+    "management","tabs", "http://*/*", "https://*/*"
+  ],
+  "options_page" : "html/options.html",
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://www.baidu.com/*",
+        "https://www.baidu.com/*"
+      ],
+      "js" : ["js/pour.js"],
+      "run_at" : "document_end"
+    }
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "icons" : {
+    "16" : "images/icon_19.png",
+    "48" : "images/icon_48.png",
+    "128" : "images/icon_128.png"
+  }
+}
