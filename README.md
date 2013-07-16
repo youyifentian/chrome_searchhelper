@@ -90,7 +90,7 @@
 >* 本代码可自由传播分享,但 **转播请注明出处**
 >* 官网：http://www.duoluohua.com/
 >* 邮箱：youyifentian@gmail.com
-  [1]: http://www.baidupcs.com/thumbnail/3e95a4965af9e24aeb902645608666b1?fid=1460463829-250528-692490841&time=1373984074&sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-MUYuvZSFNU7pSqPxWJL9%2bS7P8IU=&rt=sh&expires=8h&size=c850_u580&quality=100
-  [2]: http://www.baidupcs.com/thumbnail/d40bc7ef070833fae4aa62e543765c02?fid=1460463829-250528-1139624921&time=1373984000&sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-bYmT81K52lrqHDkHbe%2bii6qrqVQ=&rt=sh&expires=8h&size=c850_u580&quality=100
-  [3]: http://www.baidupcs.com/thumbnail/f3bbd5520968adc97965f80a31d179bb?fid=1460463829-250528-147627925&time=1373989229&sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-K7myU4h0ovDg1O9rekey0bUuqUg=&rt=sh&expires=8h&size=c850_u580&quality=100
+  [1]: http://duoluohua.com/myapp/chrome/search/images/search_1.png
+  [2]: http://duoluohua.com/myapp/chrome/search/images/search_2.png
+  [3]: http://duoluohua.com/myapp/chrome/search/images/search_3.png
 
