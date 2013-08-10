@@ -15,6 +15,7 @@ makeHtml("popup");
 chrome.tabs.getSelected(null, function(tab){
 	var tabid=tab.id,hostObj=getHostInfo(tab.url),
 	    host=hostObj.host,word=hostObj.word;
+	if("www.google.com"==host)host="www.google.com.hk";
 	for(var i in hostArr){
 		var o=$O(i);
 		if(o){
