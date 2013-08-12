@@ -86,9 +86,9 @@
 
 ----
 >##3. 关于我们
->* 为了 **"自由，开源，共"** 的精神
+>* 为了 **"自由，开源，共享"** 的精神
 >* 本代码可自由传播分享,但 **转播请注明出处**
->* 官网：http://www.duoluohua.com/
+>* 官网：http://www.duoluohua.com/download/
 >* 邮箱：youyifentian@gmail.com
   [1]: http://duoluohua.com/myapp/chrome/search/images/search_1.png
   [2]: http://duoluohua.com/myapp/chrome/search/images/search_2.png
