@@ -12,6 +12,14 @@
 //调用相应的html生成函数
 makeHtml("options");
 //初始化html中的相应事件
+function $O(id) {return document.getElementById(id);}
+var info=$O("updateimg"),version=localStorage["version"];
+$O("opttitle").innerText="快捷搜索引擎 - 选项 "+version;
+info.src="http://duoluohua.com/myapp/update?system=chrome&appname=search&apppot=pageaction&frompot=options&type=1&version="+version+"&t="+Math.random();
+info.onload=function(){
+	info.previousSibling.style.display="none";
+	info.style.display="inline-block";
+}
 for(var i in hostArr){
 	var o=$O(i);
 	if(!o)continue;

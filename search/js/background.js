@@ -10,8 +10,10 @@
  *
  ***************************************************************/
 //扩展安装时的数据初始化函数
+var version="1.0.3";
 chrome.runtime.onInstalled.addListener(function(ExtensionInfo){
 	googleAnalytics();
+	localStorage["version"]=version;
 	for(var i in hostArr){
 		if(localStorage[i])continue;
 		localStorage[i]="checked";
@@ -43,6 +45,16 @@ function onRequest(request, sender, sendResponse){
 				chrome.tabs.connect(id,data);
 			}
 		});
+	}else if("checkupdate"){
+		var xhr=new XMLHttpRequest(),
+		url="http://duoluohua.com/myapp/update?system=chrome&appname=search&apppot=pageaction&frompot=popup&type=0&version="+version+"&t="+Math.random();
+		xhr.open("GET",url,true);
+		xhr.onreadystatechange=function(){
+			if(4==xhr.readyState){
+				sendResponse(JSON.parse(xhr.responseText));
+			}
+		}
+		xhr.send();
 	}
 }
 //注册标签状态监听函数

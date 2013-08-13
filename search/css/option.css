@@ -14,6 +14,8 @@ img{border:0;}
 .content .tip{margin-left:-15px;margin-top:20px;width:220px;background:#E8EDF2;height:25px;line-height:25px;text-align:center;}
 .content .info{float:left;position:relative;left:55px;top:315px;height:20px;line-height:20px;}
 .content .showimg{position:relative;float:right;top:20px;right:50px;box-shadow:0 0 3px #DBE4F6;}
+.content .checkupdate{text-align:center;left:55px;float:left;position:relative;center;top:125px;}
+.content .checkupdate a span{display:inline-block;color:#AA9999;padding-left:-40px;line-height:16px;height:16px;width:110px;background:url('../images/loading.gif') no-repeat;}
 .content .aboutus{position:relative;float:right;clear:right;top:120px;right:25px;text-align:right;}
 .content .aboutus div{padding:3px;}
 .content .aboutus div a{color:#3366CC;}

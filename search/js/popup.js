@@ -55,5 +55,15 @@ function goSearch(o,tabid,url){
 	chrome.tabs.update(tabid,{url:url},function(tab){});
 	setCss(o);
 }
+//检查更新
+chrome.extension.sendRequest({"cmd":"checkupdate"},function(response){
+	var isnew=response.isnew,msg=response.msg,url=response.url,title=response.title;
+	if(!isnew){
+		var o=$O("upbtn");
+		o.href=url;
+		o.style.display="";
+		o.innerText=title;
+	}
+});
 //在html的最后加载Google Analytics的分析代码
 document.body.onload=function(){googleAnalytics();};
