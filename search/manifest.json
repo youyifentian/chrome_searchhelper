@@ -1,5 +1,5 @@
 {
-  "name" : "快捷搜索引擎",
+  "name" : "搜索引擎助手",
   "version" : "1.0.3",
   "manifest_version" : 2,
   "description" : "搜索引擎快速切换,一键替换百度搜索主页变谷歌",
@@ -10,7 +10,7 @@
   "update_url": "http://duoluohua.com/myapp/chrome/search/download/",
   "page_action" : {
     "default_icon" : "images/icon_19.png",
-    "default_title" : "切换搜索引擎",
+    "default_title" : "搜索引擎助手",
     "default_popup" : "html/popup.html"
   },
   "permissions" : [
