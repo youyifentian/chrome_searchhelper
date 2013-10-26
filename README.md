@@ -91,7 +91,8 @@
 >* 本代码可自由传播分享,但 **转播请注明出处**
 >* 官网：http://www.duoluohua.com/download/
 >* 邮箱：youyifentian@gmail.com
-  [1]: http://duoluohua.com/myapp/chrome/search/images/search_1.png
-  [2]: http://duoluohua.com/myapp/chrome/search/images/search_2.png
-  [3]: http://duoluohua.com/myapp/chrome/search/images/search_3.png
+  [1]: http://img.duoluohua.com/appimg/chrome_search_search_1.png
+  [2]: http://img.duoluohua.com/appimg/chrome_search_search_2.png
+  [3]: http://img.duoluohua.com/appimg/chrome_search_search_3.png
+
 
